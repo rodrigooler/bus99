@@ -7,6 +7,8 @@
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
+    "docz": "^0.11.2",
+    "docz-plugin-react-native": "^0.11.2",
     "jest": "23.6.0",
     "metro-react-native-babel-preset": "0.46.0",
     "react-test-renderer": "16.5.0"
@@ -16,6 +18,8 @@
   },
   "private": true,
   "scripts": {
+    "docz:build": "docz build",
+    "docz:dev": "docz dev",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   }
