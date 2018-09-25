@@ -1,0 +1,3 @@
+rootProject.name = 'bus99'
+
+include ':app'
