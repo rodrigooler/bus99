@@ -15,7 +15,8 @@
     "docz-theme-default": "0.11.2",
     "jest": "23.6.0",
     "metro-react-native-babel-preset": "0.47.0",
-    "react-test-renderer": "16.5.2"
+    "react-test-renderer": "16.5.2",
+    "schedule": "0.4.0"
   },
   "jest": {
     "preset": "react-native"
