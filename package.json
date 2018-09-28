@@ -25,6 +25,8 @@
     "docz:build": "docz build",
     "docz:dev": "docz dev",
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "studio": "open -a /Applications/Android\\ Studio.app ./android/",
+    "test": "jest",
+    "xcode": "open ios/$npm_package_name.xcodeproj"
   }
 }
